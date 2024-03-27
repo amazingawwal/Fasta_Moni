@@ -4,8 +4,6 @@ import { Navbar, Container, FormControl, Button, Form } from 'react-bootstrap';
 
 function Services (){
 
-
-
     return(
         <>
             <Service_text className="services" name="HOME" />

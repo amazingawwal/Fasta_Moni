@@ -46,3 +46,21 @@
 .container{
   height: 100%;
 }
+
+.help{
+  display: flexbox;
+}
+
+.small_text{
+  flex-direction: row;
+}
+
+/* ............ HERO SECTION...................................................................... */
+
+.hero_section{
+  background-color: #707070;
+}
+
+.hero{
+  margin-left: 10%;
+}

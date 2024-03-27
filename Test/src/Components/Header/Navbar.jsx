@@ -29,8 +29,8 @@ function CustomNavbar() {
             </Button>
           </Form> */}
         </Navbar.Collapse>
+        <Help/>
       </Container>
-      <Help/>
     </Navbar>
   </div>
   );
