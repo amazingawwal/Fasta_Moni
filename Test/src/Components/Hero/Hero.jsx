@@ -8,7 +8,7 @@ const Hero = ()=>{
             <div className="hero" >
                 <CapitalText className="capital_text" text="WELCOME TO CODESHARE"></CapitalText>
                 <CapitalText className="big_text" text="CONSULTING FOR EVERY BUSINESS"/>
-                <div>
+                <div className="discover_container">
                     <Service_text className="discover" name = "DISCOVER MORE"/>
                 </div>
             </div>
