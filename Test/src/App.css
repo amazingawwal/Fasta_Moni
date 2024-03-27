@@ -194,3 +194,28 @@ p.wealth_mgt{
   font-size: 16px; 
   color: white; 
 }
+
+
+
+
+/* CarouselComponent.css */
+.carousel {
+  border: 1px solid #ddd; /* Add border */
+  border-radius: 5px; /* Add border radius */
+}
+
+.carousel .slide {
+  background-color: #f9f9f9; /* Set background color for slides */
+  border-radius: 5px; /* Add border radius for slides */
+}
+
+.carousel .legend {
+  background-color: rgba(0, 0, 0, 0.5); /* Set background color for captions */
+  color: white; /* Set text color for captions */
+  padding: 10px; /* Add padding for captions */
+  bottom: 0; /* Position captions at the bottom */
+  width: 100%; /* Set width to 100% */
+  text-align: center; /* Center align text */
+  border-bottom-left-radius: 5px; /* Add border radius to bottom left corner */
+  border-bottom-right-radius: 5px; /* Add border radius to bottom right corner */
+}

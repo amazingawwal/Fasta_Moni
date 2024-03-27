@@ -1,6 +1,9 @@
 import CapitalText from "../Texts/CapitalText";
 import Card from "../Card/Card";
 import HR from "../MeetThePartner/HorizontalRule";
+import Partners from "../MeetThePartner/Partners";
+
+
 function ExperiencePage(){
     return (
         <>
@@ -15,6 +18,7 @@ function ExperiencePage(){
                     <Card/>
                 </div>
                 <HR/>
+                <Partners/>
 
             </section>
 
