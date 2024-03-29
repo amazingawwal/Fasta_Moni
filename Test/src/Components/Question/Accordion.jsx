@@ -1,46 +1,39 @@
 import React, { useState } from 'react';
+import CapitalText from '../Texts/CapitalText';
 
 
 function AccordionSection() {
-  const [activeIndex, setActiveIndex] = useState(null);
+
+
+const [activeIndex, setActiveIndex] = useState(null);
+
+  const content = {
+    1: <CapitalText className="trusted" text="There are many variation of available but many have suffered alteration"/>,
+    2: "Content for section 2",
+    3: "Content for section 3",
+    4: "Content for section 4",
+    5: "Content for section 5"
+  };
 
   const handleClick = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
+  const getToggleSymbol = (index) => {
+    return activeIndex === index ? '-' : '+';
+  };
+
   return (
     <div className="accordion">
       <ol>
-        <li className={activeIndex === 1 ? 'active' : ''} onClick={() => handleClick(1)}>
-          <div className="accordion-header">Section 1</div>
-          <div className={`accordion-content ${activeIndex === 1 ? 'open' : ''}`}>
-            Content for section 1
-          </div>
-        </li>
-        <li className={activeIndex === 2 ? 'active' : ''} onClick={() => handleClick(2)}>
-          <div className="accordion-header">Section 2</div>
-          <div className={`accordion-content ${activeIndex === 2 ? 'open' : ''}`}>
-            Content for section 2
-          </div>
-        </li>
-        <li className={activeIndex === 3 ? 'active' : ''} onClick={() => handleClick(3)}>
-          <div className="accordion-header">Section 3</div>
-          <div className={`accordion-content ${activeIndex === 3 ? 'open' : ''}`}>
-            Content for section 3
-          </div>
-        </li>
-        <li className={activeIndex === 4 ? 'active' : ''} onClick={() => handleClick(4)}>
-          <div className="accordion-header">Section 4</div>
-          <div className={`accordion-content ${activeIndex === 4 ? 'open' : ''}`}>
-            Content for section 4
-          </div>
-        </li>
-        <li className={activeIndex === 5 ? 'active' : ''} onClick={() => handleClick(5)}>
-          <div className="accordion-header">Section 5</div>
-          <div className={`accordion-content ${activeIndex === 5 ? 'open' : ''}`}>
-            Content for section 5
-          </div>
-        </li>
+        {[1, 2, 3, 4, 5].map((index) => (
+          <li key={index} className={activeIndex === index ? 'active' : ''} onClick={() => handleClick(index)}>
+            <div className="accordion-header">Section {index} {getToggleSymbol(index)}</div>
+            <div className={`accordion-content ${activeIndex === index ? 'open' : ''}`}>
+              {content[index]}
+            </div>
+          </li>
+        ))}
       </ol>
     </div>
   );

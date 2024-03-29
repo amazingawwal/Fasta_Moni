@@ -280,6 +280,11 @@ p.wealth_mgt{
 .professional_container{
   display: flex;
   gap: 1.5em;
+  
+}
+
+.professional{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .one{
@@ -374,12 +379,152 @@ a.discover_more{
 }
 
 
+/* ..................Accordion..........................................................*/
+.accordion {
+  margin-bottom: 20px;
+}
+
+.accordion ol {
+  list-style-type: none;
+  padding: 1px;
+}
+
+.accordion li {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1em;
+}
+
+.accordion li:last-child {
+  border-bottom: none;
+}
+
+.accordion-header {
+  padding: 10px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+.accordion-content.open {
+  display: block;
+}
+
+
+.accordion ol {
+  list-style: none;
+  padding: 0;
+}
+
+.accordion li {
+  border-bottom: 1px solid #ddd; 
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between; 
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none; 
+}
+
+.accordion li.active .accordion-content {
+  display: block; 
+}
+
+
+.tick-list {
+  list-style: none; 
+  padding: 0; 
+}
+
+.tick-list li {
+  display: flex; 
+  align-items: center; 
+  padding-left: 1.2em; 
+}
+
+.tick-list li::before {
+  content: "✔"; 
+  color: blue; 
+  margin-right: 0.5em; 
+}
+
+p.item{
+  margin-bottom: 0%;
+}
+
+.yoe_{
+  background-color: #2684FF;
+  color: white;
+  width: 50%;
+  padding: 1em;
+  margin-left: 20%;
+}
+
+.accordion_list{
+  display: flex;
+}
+
+.list_yoe{
+  flex: 1;
+  display: flex;
+  padding-top: 10%;
+}
+
+.accordion{
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.yoe{
+  flex: 1;
+
+}
+
+.tick_list{
+  flex: 1;
+}
+
+.yoe_text{
+  text-align: center;
+  margin-bottom: 0 ;
+}
+
+.thirty{
+  margin-left: 1.5em;
+  font-size: xx-large;
+}
+
+.question_page{
+  padding-bottom: 5em;
+}
 
 
 
+/* .................Customer Section......................................................... */
+.feedback_section{
+  background-color: #F2F4F8;
+  padding-bottom: 4em;
+  padding-top: 3em;
+  display: flex;
+  gap: 1em;
+}
 
+.customer_tile{
+  background-color: white;
+  flex: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
-
+.talk_tile{
+  flex: 1;
+}
 
 
 
