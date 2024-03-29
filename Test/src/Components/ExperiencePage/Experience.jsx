@@ -1,5 +1,5 @@
 import CapitalText from "../Texts/CapitalText";
-import Card from "../Card/Card";
+import CustomCard from "../Card/Card";
 import HR from "../MeetThePartner/HorizontalRule";
 import Partners from "../MeetThePartner/Partners";
 
@@ -13,9 +13,9 @@ function ExperiencePage(){
                     <CapitalText className="experience_text" text="The best business consulting firm you can count on!"/>
                 </div>
                 <div className="wealth">
-                    <Card/>
-                    <Card/>
-                    <Card/>
+                    <CustomCard/>
+                    <CustomCard/>
+                    <CustomCard/>
                 </div>
                 <HR/>
                 <Partners/>

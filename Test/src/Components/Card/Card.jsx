@@ -2,7 +2,7 @@ import CapitalText from "../Texts/CapitalText";
 import BitbucketLogo from "../../Icons/Bitbucket";
 import Service_text from "../Header/Services/Service_text";
 
-function Card(){
+function CustomCard(){
     return (
         <div className="card_">
             <CapitalText className="wealth_mgt" text="WEALTH MANAGEMENT"/>
@@ -15,4 +15,4 @@ function Card(){
 };
 
 
-export default Card;
+export default CustomCard;
