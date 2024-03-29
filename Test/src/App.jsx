@@ -5,7 +5,7 @@ import './App.css'
 import MarketPage from './Components/MarketPage/MarketPage';
 import Case from './Components/Case Studies/Case.jsx/Case';
 import QuestionPage from './Components/Question/Question';
-
+import Consulting from './Components/Consulting_Solution/Consulting';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <MarketPage/>
       <Case/>
       <QuestionPage/>
+      <Consulting/>
     </>
   )
 }

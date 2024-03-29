@@ -1,10 +1,16 @@
-import CapitalText from "../Texts/CapitalText"
+import CapitalText from "../Texts/CapitalText";
+import { ArrowLeft, ArrowRight } from "../../Icons/ArrowIcon";
 
 export function Talking_About(){
     return(
         <section className="talk_tile">
             <CapitalText className="talk_about" text="WHAT THEY ARE TALKING ABOUT?"/>
             <CapitalText className="trusted_by" text="Trusted by more than 4,200 customers"/>
+            <div className="arrow">
+                <ArrowLeft/>
+                <ArrowRight/>
+            </div>
+
         </section>
     )
 };
