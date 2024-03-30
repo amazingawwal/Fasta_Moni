@@ -361,14 +361,14 @@ p.years{
 }
 
 .new_case{
-  margin-left: 45%;
+  margin-left: 42%;
   margin-top: 3em;
   font-weight: bolder;
   font-size:xx-large;
 }
 
 .clients{
-  margin-left: 47%;
+  margin-left: 45%;
   font-size: small;
 }
 
@@ -395,6 +395,24 @@ p.business_growth{
   padding-bottom: 3%;
 }
 
+p.question_answer{
+  font-size: xx-large;
+  font-weight: bolder;
+  padding-top: 1em;
+  margin-left: 38%;
+}
+
+.customer_tile{
+  padding-left: 2em;
+  padding-top: 2em;
+  padding-right: 2em;
+}
+
+.help_business{
+  font-size: smaller;
+  margin-left: 42%;
+}
+
 .business_case{
   padding-top: 10%;
   padding-bottom: 2%;
@@ -416,6 +434,8 @@ p.business_growth{
   background-color: #3B365D;
   margin-left:;
 }
+
+
 
 p.mission_statement{
   width: 30%;
@@ -582,8 +602,12 @@ p.item{
   padding-top: 3em;
   display: flex;
   gap: 1.5em;
-  padding-left: 8em;
-  padding-right: 10em;
+  padding-left: 4em;
+  padding-right: 6em;
+}
+
+.customer_name{
+  color: #007bff;
 }
 
 .customer_tile{
