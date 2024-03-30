@@ -4,7 +4,7 @@ import SuccessRate from "./SuccessRate"
 
 export default function Consulting (){
     return (
-        <>
+        <div className="overlay_container">
             <div className="consult_container">
                 <div className="consulting_tile">
                     <Solution_Card/>
@@ -15,7 +15,7 @@ export default function Consulting (){
             </div>
             <BusinessGrowth/>
             <SuccessRate/>
-        </>
+        </div>
         
     )
 }

@@ -669,7 +669,7 @@ p.item{
   font-size:xx-small;
 }
 
-.business_growth{
+.business_grow{
   display: flex;
   margin-left: 17%;
   margin-right: 17%;
@@ -690,6 +690,19 @@ p.business_white{
   background-color: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 1);
 }
+
+.overlay_container{
+  position: relative;
+}
+
+.business_grow{
+  position: absolute;
+  top: 17.5em;
+  right: 5em;
+}
+
+
+
 
 .check_circle {
   background-color: #EBF1FF;
@@ -714,7 +727,7 @@ p.business_white{
 .HSR_section{
   display: flex;
   font-size: smaller;
-  padding-top: 5em;
+  padding-top: 10em;
   padding-left: 5em;
   padding-bottom: 4em;
 }
