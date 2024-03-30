@@ -5,8 +5,8 @@ function Market (){
     return(
         <>
             <CapitalText className="market" text="WE'RE LEADING IN THE MARKET" />
-            <CapitalText className="lorem" text="Lorem ipsum" />
-            <CapitalText className="years"  text="We have 35+ years of experience." />
+            <CapitalText className="lorem" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard" />
+            <CapitalText className="years"  text="We have 35+ years of experience. We offer marketing and consulting services." />
             <div className="consulting_container">
                 <progress className="progress-bar" value="89" max="100"></progress>
                     <div className="consulting">

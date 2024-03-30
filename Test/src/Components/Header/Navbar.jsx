@@ -17,17 +17,6 @@ function CustomNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <CustomForm type="search" placeholder="Search"/>
-          {/* <Form className="d-flex">
-            <FormControl
-              type="search"
-              placeholder="Search"
-              className="mr-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">
-              <BsSearch className='search' />
-            </Button>
-          </Form> */}
         </Navbar.Collapse>
         <Help/>
       </Container>

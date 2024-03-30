@@ -5,7 +5,7 @@ import { faInstagram, faLinkedin, faTwitter, faFacebook } from '@fortawesome/fre
 
 function Social_Icons() {
   return (
-    <div>
+    <div className='socials_icons'>
       <a href="https://www.instagram.com/your_instagram_username" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon className='social_icon' icon={faInstagram} size="1x" />
       </a>

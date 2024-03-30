@@ -4,7 +4,7 @@ import { BsSearch } from 'react-icons/bs';
 
 function CustomForm(props) {
   return (
-        <div>
+        <div className='search_form'>
           <Form className="d-flex">
             <FormControl
               type={props.search}
