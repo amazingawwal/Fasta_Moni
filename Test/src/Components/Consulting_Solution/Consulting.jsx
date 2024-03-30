@@ -1,5 +1,6 @@
 import { Solution_Card } from "./Solution"
 import BusinessGrowth from "./BusinessGrowth"
+import SuccessRate from "./SuccessRate"
 
 export default function Consulting (){
     return (
@@ -13,6 +14,7 @@ export default function Consulting (){
                 </div>
             </div>
             <BusinessGrowth/>
+            <SuccessRate/>
         </>
         
     )

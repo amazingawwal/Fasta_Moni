@@ -6,6 +6,7 @@ import MarketPage from './Components/MarketPage/MarketPage';
 import Case from './Components/Case Studies/Case.jsx/Case';
 import QuestionPage from './Components/Question/Question';
 import Consulting from './Components/Consulting_Solution/Consulting';
+import Footer_Section from './Components/Footer_Section/FooterSection';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Case/>
       <QuestionPage/>
       <Consulting/>
+      <Footer_Section/>
     </>
   )
 }
