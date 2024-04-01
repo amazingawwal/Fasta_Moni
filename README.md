@@ -1,8 +1,38 @@
-# React + Vite
+# Fasta_Moni
+Front End Dev Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation <a name="installation"></a>
+
+# Clone the repository
+git clone https://github.com/amazingawwal/Fasta_Moni.git
+
+# Navigate to the project directory
+cd Test
+# Install dependencies
+npm install
+
+
+## Usage <a name="usage"></a>
+
+# Start the development server
+npm run dev
+
+## Contributing <a name="contributing"></a>
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add new feature'`)
+5. Push to the branch (`git push origin feature`)
+6. Create a new Pull Request
+
+## License <a name="license"></a>
+
+MIT License
